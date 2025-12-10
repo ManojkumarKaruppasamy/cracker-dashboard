@@ -7,6 +7,8 @@ const initialState = {
   error: null
 };
 
+const URL="http://localhost:5000/api/crackers"
+
 // Thunk to fetch crackers
 export const getData = createAsyncThunk(
   "cracker/getData",
